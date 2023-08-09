@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f0ff;
+}
+
+li,a,button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 10;
+    font-size: 16px;
+    color:#2d2c62 ; 
+    width: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.name{
+    font-family: 'Montserrat', sans-serif;
+    color: #2d2c62;
+    font-size: 40px;
+    position: relative;
+    right: 70px;
+}
+
+button{
+    border-radius: 7px;
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+    background-color: #2d2c62;
+    padding: 9px 25px;
+    border: none;
+    transition: all 0.3 ease 0s;
+    color: #e3f0ff;
+    transition: 0.8s;
+    padding-right: 20px;
+}
+.nav{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    
+    padding-left: 70px;
+    position: relative;
+    top: 3px;
+   
+    
+    
+}
+
+.nav li a{
+    transition: all 0.3 ease 0s;
+    text-decoration: none;
+}
+
+
+button:hover{
+    color:#2d2c62 ;
+    background-color: #71aae3;
+    transition: 0.8s;
+}
+
+.img{
+    height: 800px;
+    width: 1000px;
+    position: relative;
+    left: 600px;
+    top: 30px;
+   
+}
+
+.text{
+   position: relative;
+   bottom: 600px;
+   left: 80px;
+   font-size:60px;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+#text{
+    position :relative;
+    left: 240px;
+    bottom : 674px;
+    color:  #fa676d;
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+}
+
+#text2{
+    position :relative;
+    left: 85px;
+    bottom : 670px;
+    color:  #fa676d;
+    font-family: 'Montserrat', sans-serif;
+    width: 500px;
+
+}
+
+.cont{
+    width: 700px;
+}
+
+.cont1{
+    width: 700px;
+}
+
+.text3{
+
+    position: relative;
+    bottom: 650px;
+    left: 90px;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+   
+    
+}
+
+#login{
+    position: relative;
+    padding-left: 110px;
+    
+}
+
+.email{
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: 90px;
+    bottom: 640px;
+}
+
+#button2{
+    position: relative;
+    left: 390px ;
+    bottom: 690px;
+    border-radius: 0px;
+}
+
+input{
+    display: block;
+    width: 50vw;
+    padding: 01.25rem;
+}
+
+input,
+input::placeholder{
+    font:1.25rem/3 sans-serif;
+}
